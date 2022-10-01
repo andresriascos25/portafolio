@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&family=Roboto:wght@100;300;400;500;700;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./styles/style.css">
+    <title>Portfolio</title>
+  </head>
+  <body>
+    <header>
+      <nav class="navbar container">
+        <a href="#">Home</a>
+        <a href="#about">Acerca de mí</a>
+        <a href="#skills">Mis habilidades</a>
+        <a href="#experience">Experiencia</a>
+        <a href="#portfolio">Portafolio</a>
+        <a href="#contact">Contacto</a>
+      </nav>
+      <nav class="mobile-nav">
+        <button id="menu-open">
+          <img src="assets/menu.svg" alt="menu">
+        </button>
+        <div id="backdrop" class="backdrop"></div>
+        <div id="menu" class="menu">
+          <button id="menu-close" class="close-menu-button">
+            <img src="assets/close.svg" alt="close-menu">
+          </button>
+          <div id="menu-options" class="menu-options">
+            <a href="#">Home</a>
+            <a href="#about">Acerca de mí</a>
+            <a href="#skills">Mis habilidades</a>
+            <a href="#experience">Experiencia</a>
+            <a href="#portfolio">Portafolio</a>
+            <a href="#contact">Contacto</a>
+          </div>
+        </div>
+      </nav>
+      <div class="info-header container">
+        <div class="profile-picture">
+          <img src="./assets/photo mobile.png" alt="">
+        </div>
+        <div class="dedication">
+          <div class="dedication-title">
+            <h1>Product Designer</h1>
+          </div>
+          <p class="dedication-subtitle">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+          <div class="redes">
+            <div class="redes-item">
+              <img src="./assets/linkedin.png" alt="">
+            </div>
+            <div class="redes-item">
+              <img src="./assets/instagram.png" alt="">
+            </div>
+            <div class="redes-item">
+              <img src="./assets/twitter.png" alt="">
+            </div>
+          </div>
+          <button class="contactame">
+            Contactame
+          </button>
+        </div>
+      </div>
+    </header>
+    <section id="about" class="about container" >
+      <h2 class="about__title">Acerca de mí</h2>
+      <p class="about__content">Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+        Neque, ratione voluptates quos enim maxime eveniet asperiores
+        blanditiis nihil tenetur earum repudiandae inventore veniam adipisci,
+        ipsum dolorem nulla vel voluptatibus praesentium cum itaque voluptas
+        sunt perspiciatis aperiam culpa. Vero, quos voluptatibus.</p>
+    </section>
+    <section id="skills" class="skills container">
+      <h2>Mis habilidades</h2>
+
+      <div class="skills-list">
+        <div class="skill">
+          <h5 class="skill-title">UX/UI DESIGN</h5>
+          <p class="skill-content">Lorem ipsum dolor sit amet consectetur 
+            adipisicing elit. Deserunt laudantium libero 
+            tempora veniam.</p>
+        </div>
+        <div class="skill">
+          <h5 class="skill-title">UX/UI DESIGN</h5>
+          <p class="skill-content">Lorem ipsum dolor sit amet consectetur 
+            adipisicing elit. Deserunt laudantium libero 
+            tempora veniam.</p>
+        </div>
+        <div class="skill">
+          <h5 class="skill-title">UX/UI DESIGN</h5>
+          <p class="skill-content">Lorem ipsum dolor sit amet consectetur 
+            adipisicing elit. Deserunt laudantium libero 
+            tempora veniam.</p>
+        </div>
+        <div class="skill">
+          <h5 class="skill-title">UX/UI DESIGN</h5>
+          <p class="skill-content">Lorem ipsum dolor sit amet consectetur 
+            adipisicing elit. Deserunt laudantium libero 
+            tempora veniam.</p>
+        </div>
+      </div>
+    </section>
+
+    <section id="experience" class="experience container">
+      <h2 class="experience-title">Experiencia</h2>
+      <div class="experience-grid">
+        <div class="experience-item">
+          <img class="experience-item__image" src="assets/amazon.png" alt="amazon">
+          <div class="experience-item__content">
+            <h6 class="experience-item__content--name">Amazon</h6>
+            <p class="experience-item__content--description">UI Designer</p>
+            <p class="experience-item__content--date">2015 - 2022</p>
+          </div>
+          <h6 class="experience-item__time">2 años</h6>
+        </div>
+        <div class="experience-item">
+          <img class="experience-item__image" src="assets/amazon.png" alt="amazon">
+          <div class="experience-item__content">
+            <h6 class="experience-item__content--name">Amazon</h6>
+            <p class="experience-item__content--description">UI Designer</p>
+            <p class="experience-item__content--date">2015 - 2022</p>
+          </div>
+          <h6 class="experience-item__time">2 años</h6>
+        </div>
+        <div class="experience-item">
+          <img class="experience-item__image" src="assets/amazon.png" alt="amazon">
+          <div class="experience-item__content">
+            <h6 class="experience-item__content--name">Amazon</h6>
+            <p class="experience-item__content--description">UI Designer</p>
+            <p class="experience-item__content--date">2015 - 2022</p>
+          </div>
+          <h6 class="experience-item__time">2 años</h6>
+        </div>
+      </div>
+    </section>
+    <section id="portfolio" class="container">
+      <h2 class="portfolio-title">Portafolio</h2>
+      <div class="portfolio-list">
+        <img class="portfolio-item__img" src="./assets/ejemplo 1.png" alt="">
+        <img class="portfolio-item__img" src="./assets/ejemplo 2.png" alt="">
+        <img class="portfolio-item__img" src="./assets/ejemplo 3.png" alt="">
+        <img class="portfolio-item__img" src="./assets/ejemplo 4.png" alt="">
+      </div>
+    </section>
+    <section id="contact" class="contact container">
+      <h2 class="contact-title">Contacto</h2>
+      <div class="contact-info">
+        <div class="contact-total">
+          <div class="contact-phone">
+            <img class="contact-item__img" src="./assets/phone.png" alt="">
+          </div>
+          <h6 class="contact-item__title">Numero Celular</h6>
+          <p class="contact-item__info">3117405652</p>
+        </div>
+        <div class="contact-total">
+          <div class="contact-phone">
+            <img class="contact-item__img" src="./assets/mail.png" alt="">
+          </div>
+          <h6 class="contact-item__title">Email</h6>
+          <p class="contact-item__info">jaime_5316@hotmail.com</p>
+        </div>
+      </div>
+    </section>
+    <footer >
+      <p >Creado en academlo &#x2764</p>
+    </footer>
+    <script src="src/index.js"></script>
+  </body>
+</html>

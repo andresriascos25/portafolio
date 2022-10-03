@@ -23,6 +23,9 @@ body{
   margin: 0 auto;
 }
 
+.profile-img{
+  width:100%;
+}
 .navbar {
   display: flex;
   justify-content: flex-end;
@@ -36,6 +39,7 @@ body{
   font-weight: 600;
   font-size: 14px;
   color: var(--color-black-primary);
+  
 }
 
 .mobile-nav {

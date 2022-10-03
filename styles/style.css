@@ -24,7 +24,9 @@ body{
 }
 
 .profile-img{
-  width:100%;
+  width:80%;
+  object-fit: contain;
+
 }
 .navbar {
   display: flex;
@@ -369,10 +371,13 @@ footer{
   .profile-picture {
     width: 100%;
     margin-bottom: 16px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
   }
 
   .profile-picture img {
-    width: 100%;
+    width: 80%;
   }
 
   .info-header {
